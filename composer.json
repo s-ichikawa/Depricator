@@ -1,0 +1,19 @@
+{
+    "name": "s-ichikawa/deprecator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "s-ichikawa",
+            "email": "ichikawa.shingo.0829@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/annotations": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sichikawa\\Deprecator\\": "src"
+        }
+    }
+}
